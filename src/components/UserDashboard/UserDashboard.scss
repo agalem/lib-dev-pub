@@ -1,0 +1,16 @@
+@import "../common/variables";
+
+.main-dashboard {
+  width: 100%;
+  height: auto;
+  border-top: 3px solid $smokey-blue;
+  @include flexbox;
+  flex-direction: row;
+}
+
+.aside {
+  height: calc(100vh - 100px);
+  width: 30%;
+  max-width: 300px;
+  background-color: $smokey-blue;
+}

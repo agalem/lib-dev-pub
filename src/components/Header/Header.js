@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
@@ -35,7 +36,7 @@ class Header extends Component {
         return (
           <div className="header">
               <div className="width__container">
-                  <Typography component="h1" variant="h3" className="title">Library</Typography>
+                  <Typography component="h1" variant="h3"><Link className="no-underline title" to='/'>Library</Link></Typography>
                   <div className="header_bar">
                       <ul className="menu_list">
                           <li className="menu_list-item">
@@ -70,14 +71,18 @@ class Header extends Component {
                                               <ClickAwayListener onClickAway={this.handleClose}>
                                                   <MenuList >
                                                       <MenuItem onClick={this.handleClose}>
-                                                          <Button variant="contained" color="secondary">
-                                                            Konto Użytkownika
-                                                          </Button>
+                                                          <Link className="no-underline" to="/user">
+                                                              <Button variant="contained" color="secondary">
+                                                                  Konto Użytkownika
+                                                              </Button>
+                                                          </Link>
                                                       </MenuItem>
                                                       <MenuItem onClick={this.handleClose}>
-                                                          <Button variant="contained">
-                                                              Bibliotekarz
-                                                          </Button>
+                                                          <Link className="no-underline" to="/admin">
+                                                              <Button variant="contained">
+                                                                  Bibliotekarz
+                                                              </Button>
+                                                          </Link>
                                                       </MenuItem>
                                                   </MenuList>
                                               </ClickAwayListener>

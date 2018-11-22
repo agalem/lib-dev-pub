@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import './CarouselNewArrivals.scss';
 import books from '../../temp_database/books';
 import Card from '@material-ui/core/Card';
@@ -84,7 +85,7 @@ class CarouselNewArrivals extends Component {
 
             const booksList = books.map(function (book) {
                 return (
-                    <a href="/">
+                    <Link to={'/book/'+book.id}>
                         <Card className="card">
                             <CardActionArea>
                                 <CardMedia
@@ -109,7 +110,7 @@ class CarouselNewArrivals extends Component {
                                 </CardContent>
                             </CardActionArea>
                         </Card>
-                    </a>
+                    </Link>
                 )
             });
 
