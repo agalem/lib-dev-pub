@@ -1,14 +1,14 @@
 {
   "main.css": "/lib-dev-pub/static/css/main.9e77a9b7.chunk.css",
-  "main.js": "/lib-dev-pub/static/js/main.c86d7273.chunk.js",
-  "main.js.map": "/lib-dev-pub/static/js/main.c86d7273.chunk.js.map",
+  "main.js": "/lib-dev-pub/static/js/main.b6be932c.chunk.js",
+  "main.js.map": "/lib-dev-pub/static/js/main.b6be932c.chunk.js.map",
   "static/css/1.bbebc8ae.chunk.css": "/lib-dev-pub/static/css/1.bbebc8ae.chunk.css",
   "static/js/1.5e027180.chunk.js": "/lib-dev-pub/static/js/1.5e027180.chunk.js",
   "static/js/1.5e027180.chunk.js.map": "/lib-dev-pub/static/js/1.5e027180.chunk.js.map",
   "runtime~main.js": "/lib-dev-pub/static/js/runtime~main.0cc2f44f.js",
   "runtime~main.js.map": "/lib-dev-pub/static/js/runtime~main.0cc2f44f.js.map",
   "static/media/bookshelf.jpg": "/lib-dev-pub/static/media/bookshelf.ba61102b.jpg",
-  "static/media/CarouselNewArrivals.scss": "/lib-dev-pub/static/media/slick.f97e3bbf.svg",
+  "static/media/CarouselNewArrivals.scss": "/lib-dev-pub/static/media/slick.d41f55a7.ttf",
   "static/media/Byers_IAmEnough.jpeg": "/lib-dev-pub/static/media/Byers_IAmEnough.080a552e.jpeg",
   "static/media/Caray_SomeoneLikeMe.jpeg": "/lib-dev-pub/static/media/Caray_SomeoneLikeMe.2aeaee88.jpeg",
   "static/media/Humino_IHearTheSunspot.jpeg": "/lib-dev-pub/static/media/Humino_IHearTheSunspot.63e78e01.jpeg",
@@ -20,6 +20,6 @@
   "static/css/1.bbebc8ae.chunk.css.map": "/lib-dev-pub/static/css/1.bbebc8ae.chunk.css.map",
   "static/css/main.9e77a9b7.chunk.css.map": "/lib-dev-pub/static/css/main.9e77a9b7.chunk.css.map",
   "index.html": "/lib-dev-pub/index.html",
-  "precache-manifest.f3d05e6b8387a8047b178901d780fede.js": "/lib-dev-pub/precache-manifest.f3d05e6b8387a8047b178901d780fede.js",
+  "precache-manifest.e4847d42c312d154f61142c73876b49a.js": "/lib-dev-pub/precache-manifest.e4847d42c312d154f61142c73876b49a.js",
   "service-worker.js": "/lib-dev-pub/service-worker.js"
 }

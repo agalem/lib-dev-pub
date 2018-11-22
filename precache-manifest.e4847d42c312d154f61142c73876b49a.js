@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c86d72737e1264ffe0e6",
+    "revision": "b6be932c926897b8a412",
     "url": "/lib-dev-pub/static/css/main.9e77a9b7.chunk.css"
   },
   {
-    "revision": "c86d72737e1264ffe0e6",
-    "url": "/lib-dev-pub/static/js/main.c86d7273.chunk.js"
+    "revision": "b6be932c926897b8a412",
+    "url": "/lib-dev-pub/static/js/main.b6be932c.chunk.js"
   },
   {
     "revision": "5e02718039c443dfe4aa",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/lib-dev-pub/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/lib-dev-pub/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/lib-dev-pub/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/lib-dev-pub/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "080a552e9fe2c1d2fc4ea935c8112848",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/lib-dev-pub/static/media/XMen5.75f7d9d8.jpeg"
   },
   {
-    "revision": "12b0d12853394a0b17f4c4fbe108e510",
+    "revision": "8ff14367c6b519ef81a3372172bbebbd",
     "url": "/lib-dev-pub/index.html"
   }
 ];
