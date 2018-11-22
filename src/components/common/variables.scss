@@ -1,0 +1,13 @@
+$poppy-red: #f50057;
+$dark-red: #b2102f;
+$rosy-red: #ffa199;
+$smokey-blue: #1769aa;
+$dark-blue: #304F67;
+
+@mixin flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}

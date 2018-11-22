@@ -1,0 +1,22 @@
+@import "../common/variables";
+
+.SearchMain {
+  margin: 100px auto;
+  width: 80%;
+  max-width: 900px;
+}
+.MuiInputBase-root-82:before {
+  border-bottom: 2px solid $smokey-blue !important;
+}
+::placeholder {
+  font-size: 25px;
+}
+.filters {
+  margin-top: 20px;
+}
+.input-chip {
+  min-width: 200px !important;
+  position: relative;
+  top: -10px;
+  left: 20px;
+}

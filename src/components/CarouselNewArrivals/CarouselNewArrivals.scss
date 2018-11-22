@@ -1,0 +1,50 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "../common/variables";
+
+.card {
+  width: 220px;
+  overflow: hidden;
+  height: 380px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.space-top {
+  margin-top: 10px;
+}
+
+.newArrivals__container {
+  height: 500px;
+  background-color: $dark-red;
+  padding-top: 10px;
+  overflow: hidden;
+  .section__title {
+    color: $rosy-red;
+    position: relative;
+    left: -30px;
+    margin-bottom: 20px;
+  }
+  .section__title:before {
+    content: '';
+    width: 500px;
+    height: 3px;
+    background-color: $rosy-red;
+    position: absolute;
+    bottom: 0;
+    left: -400px;
+  }
+}
+
+.slider__container {
+  background-color: $dark-red;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick-prev, .slick-next {
+  font-size: 15px !important;
+}
+
+.slick-prev:before, .slick-next:before  {
+  content: '' !important;
+}

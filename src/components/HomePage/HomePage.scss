@@ -1,0 +1,12 @@
+@import "../common/variables";
+
+.image_bgr--top {
+  width: 100%;
+  height: 330px;
+  background: url("../../images/bookshelf.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top: 2px solid $poppy-red;
+}

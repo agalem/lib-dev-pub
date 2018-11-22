@@ -1,0 +1,13 @@
+@import "../../node_modules/normalize-scss/sass/normalize";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.width__container {
+  width: 100%;
+  height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
