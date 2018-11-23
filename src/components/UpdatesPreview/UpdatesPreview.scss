@@ -1,7 +1,7 @@
 @import "../common/variables";
 
 .updates_container {
-  height: 250px;
+  height: 280px;
   margin-top: 20px;
   .section__title {
     color: $dirty-pink !important;
@@ -28,7 +28,11 @@
   justify-content: center;
   .space-top {
     position: relative;
-    top: 40px;
+    top: 30px;
   }
 }
 
+.paper-custom {
+  height: 100px;
+  padding: 20px;
+}

@@ -36,7 +36,7 @@ class Header extends Component {
         return (
           <div className="header">
               <div className="width__container">
-                  <Typography component="h1" variant="h3"><Link className="no-underline title" to='/'>Library</Link></Typography>
+                  <Typography component="h1" variant="h3"><Link className="no-underline title" to={process.env.PUBLIC_URL + '/'} >Library</Link></Typography>
                   <div className="header_bar">
                       <ul className="menu_list">
                           <li className="menu_list-item">
@@ -71,14 +71,14 @@ class Header extends Component {
                                               <ClickAwayListener onClickAway={this.handleClose}>
                                                   <MenuList >
                                                       <MenuItem onClick={this.handleClose}>
-                                                          <Link className="no-underline" to="/user">
+                                                          <Link className="no-underline" to={process.env.PUBLIC_URL +  '/user'}>
                                                               <Button variant="contained" color="secondary">
                                                                   Konto Użytkownika
                                                               </Button>
                                                           </Link>
                                                       </MenuItem>
                                                       <MenuItem onClick={this.handleClose}>
-                                                          <Link className="no-underline" to="/admin">
+                                                          <Link className="no-underline" to={process.env.PUBLIC_URL + '/admin'}>
                                                               <Button variant="contained">
                                                                   Bibliotekarz
                                                               </Button>

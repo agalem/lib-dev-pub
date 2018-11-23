@@ -85,7 +85,7 @@ class CarouselNewArrivals extends Component {
 
             const booksList = books.map(function (book) {
                 return (
-                    <Link to={'/book/'+book.id}>
+                    <Link className="card-link" to={'/book/'+book.id}>
                         <Card className="card">
                             <CardActionArea>
                                 <CardMedia

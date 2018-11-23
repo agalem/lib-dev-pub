@@ -14,9 +14,9 @@ class App extends Component {
       <div className="App">
         <Header/>
         <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route path='/user' component={UserDashboard} />
-          <Route path='/book/:bookId' component={BookPage} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
+          <Route path={process.env.PUBLIC_URL + '/user'} component={UserDashboard} />
+          <Route path={process.env.PUBLIC_URL + '/book/:bookId'} component={BookPage} />
         </Switch>
           <Footer/>
       </div>

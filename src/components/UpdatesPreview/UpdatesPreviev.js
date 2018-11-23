@@ -15,7 +15,7 @@ class UpdatesPreviev extends Component {
               <div className="width__container">
                   <Grid container spacing={24}>
                       <Grid item xs={8} sm={4}>
-                          <Paper elevation={1}>
+                          <Paper elevation={1} className="paper-custom">
                               <Typography variant="h5" component="h3">
                                   Zapisz się do newslettera
                               </Typography>
@@ -25,7 +25,7 @@ class UpdatesPreviev extends Component {
                           </Paper>
                       </Grid>
                       <Grid item sm={4}>
-                          <Paper elevation={1}>
+                          <Paper elevation={1} className="paper-custom">
                               <Typography variant="h5" component="h3">
                                   Zaplanuj wizytę
                               </Typography>
@@ -35,7 +35,7 @@ class UpdatesPreviev extends Component {
                           </Paper>
                       </Grid>
                       <Grid item xs={8} sm={4}>
-                          <Paper elevation={1}>
+                          <Paper elevation={1} className="paper-custom">
                               <Typography variant="h5" component="h3">
                                   Zmiana godzin pracy
                               </Typography>
@@ -50,7 +50,6 @@ class UpdatesPreviev extends Component {
                           Pokaż więcej
                       </Button>
                   </Grid>
-
               </div>
           </div>
         );

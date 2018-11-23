@@ -82,7 +82,7 @@ class SearchComponentMain extends Component {
                                 renderValue={selected => (
                                     <div >
                                         {selected.map(value => (
-                                            <Chip key={value} label={value}  />
+                                            <Chip key={value} label={value} className="chip"  />
                                         ))}
                                     </div>
                                 )}
