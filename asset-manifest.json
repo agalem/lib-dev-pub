@@ -8,7 +8,7 @@
   "runtime~main.js": "/lib-dev-pub/static/js/runtime~main.0cc2f44f.js",
   "runtime~main.js.map": "/lib-dev-pub/static/js/runtime~main.0cc2f44f.js.map",
   "static/media/bookshelf.jpg": "/lib-dev-pub/static/media/bookshelf.ba61102b.jpg",
-  "static/media/CarouselNewArrivals.scss": "/lib-dev-pub/static/media/slick.b7c9e1e4.woff",
+  "static/media/CarouselNewArrivals.scss": "/lib-dev-pub/static/media/slick.ced611da.eot",
   "static/media/Byers_IAmEnough.jpeg": "/lib-dev-pub/static/media/Byers_IAmEnough.080a552e.jpeg",
   "static/media/Caray_SomeoneLikeMe.jpeg": "/lib-dev-pub/static/media/Caray_SomeoneLikeMe.2aeaee88.jpeg",
   "static/media/Humino_IHearTheSunspot.jpeg": "/lib-dev-pub/static/media/Humino_IHearTheSunspot.63e78e01.jpeg",
@@ -20,6 +20,6 @@
   "static/css/main.b47d2f60.chunk.css.map": "/lib-dev-pub/static/css/main.b47d2f60.chunk.css.map",
   "static/css/1.bbebc8ae.chunk.css.map": "/lib-dev-pub/static/css/1.bbebc8ae.chunk.css.map",
   "index.html": "/lib-dev-pub/index.html",
-  "precache-manifest.3d978720af0e814428481e1dbbde38be.js": "/lib-dev-pub/precache-manifest.3d978720af0e814428481e1dbbde38be.js",
+  "precache-manifest.159d4907f075dd1bdbc902fa00c9859d.js": "/lib-dev-pub/precache-manifest.159d4907f075dd1bdbc902fa00c9859d.js",
   "service-worker.js": "/lib-dev-pub/service-worker.js"
 }
