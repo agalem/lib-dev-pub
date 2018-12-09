@@ -1,0 +1,71 @@
+@import "../common/variables";
+
+.catalog {
+  @include flexbox;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.catalog-filters {
+  width: 25%;
+  padding-top: 20px;
+  position: relative;
+  .divider {
+    top: 0;
+    height: 3px;
+  }
+}
+
+.catalog-main {
+  width: 100%;
+}
+
+.bookRow {
+  @include flexbox;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+}
+
+.bookRow-data {
+  width: 50%;
+  padding: 40px;
+  padding-right: 0;
+}
+.bookRow-data-available {
+  margin-top: 15px !important;
+}
+.bookRow-actions {
+  @include flexbox;
+  flex-direction: column;
+  padding: 40px;
+  padding-left: 0;
+}
+.flex-inline {
+  @include flexbox;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 15px;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  background-color: $smokey-blue;
+}
+.filters {
+  text-align: right;
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+}
+.btn_order {
+  width: 200px;
+}
+.book-author {
+  color: $primary-blue !important;
+}

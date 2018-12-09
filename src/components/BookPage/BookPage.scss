@@ -1,0 +1,74 @@
+@import "../common/variables";
+
+.bookPage {
+  position: relative;
+  .divider {
+    top: 0;
+    height: 2px;
+    background-color: $poppy-red;
+  }
+}
+
+.bookPage-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  @include flexbox;
+  flex-direction: row;
+}
+
+.bookPage-info {
+  width: 70%;
+  position: relative;
+  margin-top: 100px;
+  padding-top: 50px;
+  .divider {
+    top: 0;
+    height: 3px;
+    background-color: black;
+  }
+  .text-back {
+    position: absolute;
+    top: -25px;
+    color: $primary-blue !important;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.top {
+  @include flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-cover {
+  height: auto;
+  width: 140px;
+  position: absolute;
+}
+
+.textbox {
+  margin-left: 40px;
+  position: relative;
+  left: 140px;
+  .subtitle2 {
+    font-size: 16px;
+    position: relative;
+    bottom: -40px;
+  }
+}
+
+.bookRow-actions {
+  justify-self: flex-end;
+  align-items: flex-start;
+}
+
+.divider-light {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-top: 150px;
+}

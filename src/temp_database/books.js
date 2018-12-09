@@ -1,53 +1,65 @@
-const books = [
+export const books = [
     {
         id: 0,
         author: 'Haruki Murakami',
         title: 'Klling Commendatore',
         tags: ['Adults', 'Fiction'],
         imagePath: 'Murakami_KillingCommendatore.jpeg',
+        publishedYear: '2010',
+        available: 2,
     },
     {
         id: 1,
         author: 'Kiese Laymon',
         title: 'Heavy',
         tags: ['Adults', 'Memoir'],
-        imagePath: 'Laymon_Heavy.jpeg'
+        imagePath: 'Laymon_Heavy.jpeg',
+        publishedYear: '1999',
+        available: 0,
     },
     {
         id: 2,
         author: 'Benjamin Sasse',
         title: 'Them',
         tags: ['Adults', 'Nonfiction'],
-        imagePath: 'Sasse_Them.jpeg'
+        imagePath: 'Sasse_Them.jpeg',
+        publishedYear: '2005',
+        available: 5,
     },
     {
         id: 3,
         author: 'Yuki Fumino',
         title: 'I Hear the Sunspot',
         tags: ['Adults', 'Graphic Novel'],
-        imagePath: 'Humino_IHearTheSunspot.jpeg'
+        imagePath: 'Humino_IHearTheSunspot.jpeg',
+        publishedYear: '2012',
+        available: 2,
     },
     {
         id: 4,
         author: 'M.R. Carey',
         title: 'Someone Like Me',
         tags: ['Adults', 'Thriller'],
-        imagePath: 'Sasse_Them.jpeg'
+        imagePath: 'Sasse_Them.jpeg',
+        publishedYear: '2017',
+        available: 1,
     },
     {
         id: 5,
         author: 'Marie Lu',
         title: 'Wildcard',
         tags: ['Teens', 'Fiction'],
-        imagePath: 'Lu_Wildcard.jpeg'
+        imagePath: 'Lu_Wildcard.jpeg',
+        publishedYear: '1987',
+        available: 3,
     },
     {
         id: 6,
         author: 'Grace Byers',
         title: 'I am enough',
         tags: ['Kids', 'Picture Book'],
-        imagePath: 'Byers_IAmEnough.jpeg'
+        imagePath: 'Byers_IAmEnough.jpeg',
+        publishedYear: '2018',
+        available: 0,
     }
 ];
-
-export default books;

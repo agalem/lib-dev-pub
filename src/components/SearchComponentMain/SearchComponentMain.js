@@ -13,6 +13,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Chip from '@material-ui/core/Chip';
+import Button from '@material-ui/core/Button';
 
 const types = [
     'Akcja',
@@ -72,11 +73,14 @@ class SearchComponentMain extends Component {
                             }
                             label="Tytułów"
                         />
+                    </FormGroup>
+                    <FormGroup>
                         <FormControl className="input-chip">
                             <InputLabel htmlFor="select-multiple-chip">Wybierz rodzaj</InputLabel>
                             <Select
                                 multiple
                                 value={this.state.name}
+                                className={'search_select-chip'}
                                 onChange={this.handleChange}
                                 input={<Input id="select-multiple-chip" />}
                                 renderValue={selected => (
@@ -95,6 +99,9 @@ class SearchComponentMain extends Component {
                             </Select>
                         </FormControl>
                     </FormGroup>
+                    <Button className="btn_search" variant="contained" color="primary">
+                        Szukaj
+                    </Button>
                 </div>
             </div>
         );

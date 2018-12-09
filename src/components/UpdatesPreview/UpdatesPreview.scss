@@ -1,6 +1,7 @@
 @import "../common/variables";
 
 .updates_container {
+  overflow: hidden;
   height: 280px;
   margin-top: 20px;
   .section__title {
