@@ -1,0 +1,22 @@
+@import "../common/variables";
+
+.row {
+  @include flexbox;
+  padding: 20px 0;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pagination {
+  color: #828282 !important;
+  margin: 0 10px !important;
+}
+
+.arr {
+  color: #828282 !important;
+  &:hover {
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

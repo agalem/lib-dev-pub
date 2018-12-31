@@ -1,0 +1,18 @@
+@import "../common/variables";
+
+.no-shadow {
+  box-shadow: none !important;
+}
+
+.expansionPanel {
+  width: 100%;
+}
+
+.expansionPanel_summary {
+  border-bottom: 2px solid $rosy-red !important;
+}
+
+.textField {
+  width: 90% !important;
+  margin-bottom: 15px !important;
+}

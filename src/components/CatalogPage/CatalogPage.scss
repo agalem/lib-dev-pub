@@ -1,5 +1,14 @@
 @import "../common/variables";
 
+.search {
+  @include flexbox;
+  width: 100%;
+  padding: 30px 0;
+  padding-left: 10px;
+  border-top: 2px solid $smokey-blue;
+  align-items: center;
+}
+
 .catalog {
   @include flexbox;
   flex-direction: row;
@@ -11,6 +20,7 @@
   width: 25%;
   padding-top: 20px;
   position: relative;
+  border-right: 1px solid $smokey-blue;
   .divider {
     top: 0;
     height: 3px;
@@ -68,4 +78,7 @@ a {
 }
 .book-author {
   color: $primary-blue !important;
+}
+.icon {
+  margin-right: 7px;
 }
