@@ -17,7 +17,9 @@ class CatalogFilters extends Component {
         this.state = {
             yearFrom: 0,
             yearTo: 0,
-            authors: []
+            authors: [],
+            languages: [],
+            countries: [],
         };
         this.handleChange = this.handleChange.bind(this);
     }
@@ -27,18 +29,19 @@ class CatalogFilters extends Component {
             this.setState ({
                 [name]: event.target.value,
             });
-        } else if (name === 'author') {
-            //chandling checkboxes
-            const authors = this.state.authors;
+        } else {
+            //authors, languages
+            //const authors = this.state.authors;
+            const list = this.state[name];
             let index;
-
             if(event.target.checked) {
-                authors.push(event.target.value);
+                list.push(event.target.value);
             } else {
-                index = authors.indexOf(event.target.value);
-                authors.splice(index, 1);
+                index = list.indexOf(event.target.value);
+                list.splice(index, 1);
             }
-            this.setState({authors: authors});
+            this.setState({[name]: list});
+            console.log(list);
         }
     };
 
@@ -83,7 +86,7 @@ class CatalogFilters extends Component {
                                         <Checkbox
                                             value={'author1'}
                                             color={'primary'}
-                                            onChange={this.handleChange('author')}
+                                            onChange={this.handleChange('authors')}
                                         />
                                     }
                                     label={'Author name'}
@@ -93,7 +96,7 @@ class CatalogFilters extends Component {
                                         <Checkbox
                                             value={'author2'}
                                             color={'primary'}
-                                            onChange={this.handleChange('author')}
+                                            onChange={this.handleChange('authors')}
                                         />
                                     }
                                     label={'Author name'}
@@ -103,12 +106,55 @@ class CatalogFilters extends Component {
                                         <Checkbox
                                             value={'author3'}
                                             color={'primary'}
-                                            onChange={this.handleChange('author')}
+                                            onChange={this.handleChange('authors')}
                                         />
                                     }
                                     label={'Author name'}
                                 />
                             </div>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+
+
+                <ExpansionPanel className="no-shadow">
+                    <ExpansionPanelSummary className="expansionPanel_summary" expandIcon={<ExpandMoreIcon />}>
+                        <Typography variant="button">
+                            Język
+                        </Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <div className="selection-list-column">
+                            <FormControlLabel
+                                control={
+                                    <Checkbox
+                                        value={'polish'}
+                                        color={'primary'}
+                                        onChange={this.handleChange('languages')}
+                                    />
+                                }
+                                label={'Polski'}
+                            />
+                            <FormControlLabel
+                                control={
+                                    <Checkbox
+                                        value={'english'}
+                                        color={'primary'}
+                                        onChange={this.handleChange('languages')}
+                                    />
+                                }
+                                label={'Angielski'}
+                            />
+                            <FormControlLabel
+                                control={
+                                    <Checkbox
+                                        value={'french'}
+                                        color={'primary'}
+                                        onChange={this.handleChange('languages')}
+                                    />
+                                }
+                                label={'Francuski'}
+                            />
+                        </div>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             </div>

@@ -12,6 +12,12 @@
   border-bottom: 2px solid $rosy-red !important;
 }
 
+.selection-list-column {
+  @include flexbox;
+  flex-direction: column;
+  align-items: left;
+}
+
 .textField {
   width: 90% !important;
   margin-bottom: 15px !important;
