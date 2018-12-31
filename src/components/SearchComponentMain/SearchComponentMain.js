@@ -52,28 +52,30 @@ class SearchComponentMain extends Component {
                     }}
                 />
                 <div className="filters">
-                    <Typography component="h3" variant="button" gutterBottom>
-                        Szukaj wśród
-                    </Typography>
-                    <FormGroup row>
-                        <FormControlLabel
-                            control={
-                                <Switch
-                                    value="checkedA"
-                                />
-                            }
-                            label="Autorów"
-                        />
-                        <FormControlLabel
-                            control={
-                                <Switch
-                                    value="checkedB"
-                                    color="primary"
-                                />
-                            }
-                            label="Tytułów"
-                        />
-                    </FormGroup>
+                    <div className="switchers_container">
+                        <Typography component="h3" variant="button" gutterBottom className="space-right">
+                            Szukaj wśród
+                        </Typography>
+                        <FormGroup row>
+                            <FormControlLabel
+                                control={
+                                    <Switch
+                                        value="checkedA"
+                                    />
+                                }
+                                label="Autorów"
+                            />
+                            <FormControlLabel
+                                control={
+                                    <Switch
+                                        value="checkedB"
+                                        color="primary"
+                                    />
+                                }
+                                label="Tytułów"
+                            />
+                        </FormGroup>
+                    </div>
                     <FormGroup>
                         <FormControl className="input-chip">
                             <InputLabel htmlFor="select-multiple-chip">Wybierz rodzaj</InputLabel>

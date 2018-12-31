@@ -87,13 +87,14 @@ class CarouselNewArrivals extends Component {
                 return (
                     <Link className="card-link" to={'/book/'+book.id}>
                         <Card className="card">
-                            <CardActionArea>
+                            <CardActionArea className="height-max">
                                 <CardMedia
                                     component="img"
                                     alt={book.title + book.author}
                                     height="200"
                                     image={require(`../../images/${book.imagePath}`)}
                                     title={book.title + book.author}
+                                    className="card-img"
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="h3">

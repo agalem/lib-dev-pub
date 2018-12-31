@@ -8,6 +8,7 @@ import UserDashboard from './UserDashboard/UserDashboard';
 import BookPage from './BookPage/BookPage';
 import Catalog from './Catalog/Catalog';
 import NewsPage from './NewsPage/NewsPage';
+import AdminPage from './AdminPage/AdminPage';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path={process.env.PUBLIC_URL + '/book/:bookId'} component={BookPage} />
           <Route path={process.env.PUBLIC_URL + '/catalog'} component={Catalog}/>
           <Route path={process.env.PUBLIC_URL + '/news'} component={NewsPage}/>
+          <Route path={process.env.PUBLIC_URL + '/admin'} component={AdminPage} />
         </Switch>
       </div>
     );

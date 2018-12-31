@@ -14,7 +14,17 @@
   height: 380px;
   margin-left: 25px;
   margin-bottom: 20px;
+  .height-max {
+    height: 100%;
+    position: relative;
+    padding-top: 180px;
+    .card-img {
+      position: absolute;
+      top: 0;
+    }
+  }
 }
+
 .space-top {
   margin-top: 10px;
 }

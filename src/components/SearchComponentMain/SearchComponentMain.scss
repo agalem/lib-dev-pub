@@ -16,6 +16,19 @@
   @include flexbox;
   flex-direction: column;
 }
+.switchers_container {
+  @include flexbox;
+  flex-direction: row;
+  align-items: center;
+  .space-right {
+    margin-right: 30px;
+    position: relative;
+    top: 2px;
+  }
+}
+.search_select-chip {
+  width: 104% !important;
+}
 .input-chip {
   display: block;
 }

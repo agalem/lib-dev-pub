@@ -1,9 +1,8 @@
 @import "../common/variables";
 
 .updates_container {
-  overflow: hidden;
-  height: 280px;
   margin-top: 20px;
+  margin-bottom: 60px;
   .section__title {
     color: $dirty-pink !important;
     position: relative;
@@ -23,17 +22,35 @@
   left: -370px;
 }
 
-.center {
+.grid-container {
   @include flexbox;
-  align-items: center;
-  justify-content: center;
-  .space-top {
-    position: relative;
-    top: 30px;
-  }
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  grid-auto-rows: 1fr;
 }
 
 .paper-custom {
+  width: 300px;
   height: 100px;
   padding: 20px;
+  position: relative;
+  .link-bottom {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.shortText {
+  display: block;
+  height: 38px;
+  overflow: hidden;
+}
+
+.btn-container {
+  @include flexbox;
+  justify-content: center;
+  position: relative;
+  top: 20px;
 }

@@ -39,7 +39,7 @@ class BookPage extends Component {
                                 <Typography variant="title">{book.title}</Typography>
                                 <Typography variant="subheading">{book.author}</Typography>
                                 <Typography variant="subheading">{book.publishedYear}</Typography>
-                                <Typography variant="caption">Kategorie: {book.tags.map(tag => <a href=''>{tag + ' '}</a>)}</Typography>
+                                <Typography variant="caption">Kategorie: {book.tags.map(tag => <a href="/" >{tag + ' '}</a>)}</Typography>
                                 <Typography className="subtitle2" variant="subtitle2" >Dostępnych: {book.available}</Typography>
                             </div>
                             <div className="bookRow-actions">
